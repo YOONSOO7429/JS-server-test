@@ -1,0 +1,9 @@
+# 어떤 이름이든 상관없다
+name: Deploy with Docker
+
+# 어떤 브랜치에 Actions를 작동할지 설정
+# 여러개 사용해도 괜찮다
+on:
+  push:
+    branches: [main]
+# Docker image 를
